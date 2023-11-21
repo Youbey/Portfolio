@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+
+    <title>Portfolio | Ayoub Bendraou</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo"> Portfolio</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#experience" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+                    <li class="nav__item"><a href="#languages" class="nav__link">Languages</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!-- HOME -->
+        <section class="home" id="home">
+            <div class="home-data">
+                <h1 class="home-title">
+                    Hello,<br />I'm <span class="home-title-color">Ayoub</span> <br>
+                    <span id="typewriter" class="typewriter"></span>
+                </h1>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="about section " id="about">
+            <h2 class="section-title">About <span class="home-title-color">Me</span></h2>
+
+            <div class="about__container">
+                <div class="about__img">
+                   <!-- <img src="/assets/me.jpg" alt="Mijn image" width="395" height="654"> -->
+                </div>
+                <div>
+                    <p class="about__text">
+                        I'm Ayoub Bendraou, a 22-year-old CyberSecurity And Computer Science student at ENSIBS (Ecole National Supérieur Bretagne-Sud). Driven by my
+                        passion for CyberSecurity, I aspire to become an expert in the field. While I'm not yet where I want to be, I'm dedicated to continuous 
+                        improvement. Focused on absorbing everything about Computer science, programming and security, I specialize in securing programs. My goal is 
+                        to excel in protecting systems and programs, laying a robust foundation for my future in CyberSecurity.
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <h3> I've worked on projects and built applications / websites using: </h3>
+            <h5> Web: </h5>
+            <div class="text">
+                <ul class="topic">
+                    <li> HTML </li>
+                    <li> CSS </li>
+                    <li> Node.js </li>
+                    <li> JavaScript </li>
+                    <li> PHP </li>
+                </ul>
+            </div>
+            <h5> Programming: </h5>
+            <div class="text">
+                <ul class="topic">
+                    <li> Python </li>
+                    <li> Java </li>
+                    <li> SQL </li>
+                    <li> Ocaml </li>
+                </ul>
+            </div>
+            <h5> Operating system: </h5>
+            <div class="text">
+                <ul class="topic">
+                    <li> Linux </li>
+                    <li> Windows </li>
+                    <li> Docker </li>
+                </ul>
+            </div>
+            <h5> Network: </h5>
+            <div class="text">
+                <ul class="topic">
+                    <li> CyberEdu 1,2,3 & 4 </li>
+                    <li> Network Security </li>
+                    <li> Wireshark </li>
+                </ul>
+            </div>
+            <h5> Security: </h5>
+            <div class="text">
+                <ul class="topic">
+                    <li> Analyse de risque </li>
+                </ul>
+            </div>
+        </section>
+        </section>
+
+        <!-- Experience -->
+        <section class="experience-section" id="experience">
+            <section class="work-section">
+                <h2 class="section-title">Projects</h2>
+                <h3> Some of my work: </h3>
+                <section class="text" id="work">
+                    <h3> PNR </h3>
+                    <p>
+                        I collaborated with the Parc Naturel Régional du Golfe du Morbihan to develop an application for managing employee observations.
+                    </p>
+
+                    <div>
+                        <a href="https://www.parc-golfe-morbihan.bzh/"
+                            style="font-size: small; text-transform: uppercase;">Check their website</a>
+                    </div>
+
+                    <h3> Inititation des enfants à la robotique </h3>
+
+                    <p> As part of a civic project, I supervised children aged 8 to 12 with three of my classmates 
+                        to introduce them to robotics. </p>
+
+                    <div>
+                        <a href="https://www.lespetitsdebrouillards.org/"
+                            style="font-size: small; text-transform: uppercase;">Check their website</a>
+                    </div>
+
+                    <h3>Prévision météorologiques </h3>
+
+                    <p> I designed an application for the Vannes agglomeration with my group that displays weather forecasts for the region. </p>
+
+                    <a href="https://www.golfedumorbihan-vannesagglomeration.bzh/"
+                        style="font-size: small; text-transform: uppercase;">Check their website</a>
+
+
+                    <h3> Root-Me </h3>
+                    <p>
+                        I regularly participate in challenges on Root-Me to learn how to exploit computer vulnerabilities and understand 
+                        how to protect a system against them.
+                    </p>
+
+                    <a href="https://www.root-me.org/Youbey?lang=en"
+                        style="font-size: small; text-transform: uppercase;">Check my profile</a>
+
+                    <h3> Network Security </h3>
+                    <p>
+                        I created a program that exfiltrates a file through an ICMP packet.
+                    </p>
+
+                    <a href="https://github.com/Youbey/Exfiltration_ICMP"
+                        style="font-size: small; text-transform: uppercase;">Check my work</a>
+
+                        <h3> Ultra Master Mind (Algorithm) </h3>
+                        <p>
+                            I created an algorithm that solves the Ultra Master Mind game.
+                        </p>
+    
+                        <a href=""
+                            style="font-size: small; text-transform: uppercase;">In progress...</a>
+                </section>
+            </section>
+        </section>
+        </section>
+
+        <!-- Education -->
+        <section class="education-section" id="education">
+            <h2 class="section-title">Education</h2>
+            <section class="text">
+                <h3>Engineering School, ENSIBS (Ecole National Supérieur Bretagne-Sud)</h3>
+                <p>Preparatory classes (DUT Informatique) | 2021 - 2023</p>
+                <p>CyberSecurity & Computer Science | 2023 - 2026</p>
+            </section>
+        </section>
+
+        <!-- Languages -->
+        <section class="language" id="languages">
+            <h2 class="section-title">Languages</h2>
+            <div class="text">
+                <li> French </li>
+                <li> English </li>
+                <li> Arabic </li>
+                <li> German </li>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p class="footer-title">Ayoub Bendraou</p>
+        <div class="footer-social">
+            <a href="https://github.com/Youbey" class="footer-icon"><i class="bx bxl-github"></i></a>
+            <a href="https://www.linkedin.com/in/youbey" class="footer-icon"><i class="bx bxl-linkedin"></i></a>
+        </div>
+        <p class="footer-copy">| Youbey</p>
+    </footer>
+
+    <!-- Boxicons -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+    <!-- Scrollreveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Script -->
+    <script src="/script.js"></script>
+
+    <!-- BackToTop Button -->
+    <a href="#" id="back-to-top">↑</a>
+</body>
+
+</html>
