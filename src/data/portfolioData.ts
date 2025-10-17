@@ -89,22 +89,33 @@ export const education: Education[] = [
 ];
 
 export const projects: Project[] = [
-  {
-    title: "Simulated Attack on an Encrypted Database",
-    date: "04/2025",
-    description: "A simulation to show how order leakage — even without direct access to plaintexts — can significantly reduce the security of an encrypted database."
-  },
-  {
-    title: "File Exfiltration via ICMP Packets",
-    date: "11/2023",
-    description: "Advanced data exfiltration toolkit using ICMP protocol",
-    details: [
-      "Developed a basic script to send an encoded file via an ICMP packet using Scapy",
-      "Improved security by sending multiple ICMP packets",
-      "Strengthened file encoding for better obfuscation",
-      "Introduced corrupted characters to prevent recognition and decoding of the file"
-    ]
-  }
+    {
+        title: "defHack: Military Defensive CTF",
+        date: "10/2025",
+        description: "A simulation of a military defensive CTF, an incident response scenario simulated by COMCYBER (French Military Cybersecurity Experts)",
+        details: [
+            "Two different military bases were simulated, with two teams in collaboration",
+            "Military protocols were implemented to add a realistic environment with command chains",
+            "Each base had access to a different infrastructure",
+            "The Cyber Incident Response Team was mixte, and had to handle multiple tasks simultaneously"
+        ]
+    },
+    {
+        title: "Simulated Attack on an Encrypted Database",
+        date: "04/2025",
+        description: "A simulation to show how order leakage — even without direct access to plaintexts — can significantly reduce the security of an encrypted database."
+    },
+    {
+        title: "File Exfiltration via ICMP Packets",
+        date: "11/2023",
+        description: "Advanced data exfiltration toolkit using ICMP protocol",
+        details: [
+          "Developed a basic script to send an encoded file via an ICMP packet using Scapy",
+          "Improved security by sending multiple ICMP packets",
+          "Strengthened file encoding for better obfuscation",
+          "Introduced corrupted characters to prevent recognition and decoding of the file"
+        ]
+    }
 ];
 
 export const certificates: Certificate[] = [
@@ -118,8 +129,7 @@ export const skillCategories: SkillCategory[] = [
   {
     category: "Application Development",
     skills: [
-      "Java",
-      "Spring Boot/Maven/Gradle",
+      "Java (Spring Boot/Maven/Gradle)",
       "Jakarta EE/Payara",
       "Python",
       "Android & Security",
@@ -144,11 +154,11 @@ export const skillCategories: SkillCategory[] = [
     category: "Ethical Hacking",
     skills: [
       "Malware Analysis",
+      "Kali Linux/Parrot OS",
       "OSINT",
       "Metasploit",
       "SQL Injection",
       "Phishing",
-      "Kali Linux/Parrot OS",
       "Nmap",
       "Web Scraping"
     ]
@@ -192,7 +202,7 @@ export const skillCategories: SkillCategory[] = [
     category: "Operating Systems",
     skills: [
       "Windows - Linux",
-      "Windows Server",
+      "Windows Server / Wallix",
       "Docker / Kubernetes"
     ]
   }
