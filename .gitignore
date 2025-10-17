@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+build/
+
+# Environment files
+.env
+.env.local
+
+# IDE
+.idea/workspace.xml
+.idea/usage.statistics.xml
+.idea/shelf/
+
+# OS files
+.DS_Store
+Thumbs.db
