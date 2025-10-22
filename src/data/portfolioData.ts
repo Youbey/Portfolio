@@ -122,7 +122,8 @@ export const certificates: Certificate[] = [
   { name: "Security Analyst (SOC) Junior - Level 1", status: "OnGoing" },
   { name: "CISSP Introduction" },
   { name: "SoSafe Certificate - Cyber Security Awareness" },
-  { name: "CyberCrime Introduction" }
+  { name: "CyberCrime Introduction" },
+  { name: "COMCYBER - Cyber Incident Response (DefHack)"}
 ];
 
 export const skillCategories: SkillCategory[] = [
