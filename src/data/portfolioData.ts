@@ -106,13 +106,13 @@ export const projects: Project[] = [
         date: "02/2026",
         description: "A high-stakes simulation of a crisis management scenario involving a large hospital chain following a quality-related incident.",
         details: [
-            "Rotational Leadership: Operated within a 3-unit structure (Management, Dev, and Ops/Maintenance), rotating roles daily to ensure cross-functional expertise and seamless handovers.",
-            "Agile Product Delivery: Simultaneously managed new product development, deployment, and legacy updates while maintaining strict V&V (Validation & Verification) and quality standards.",
-            "Cyber Incident Response: Acted as first responders to a major cyberattack and data breach involving social media leaks.",
-            "Technical: Identified breach sources and constructed the attack timeline with the attacker's motive & proof and implemented a comprehensive remediation plan.",
-            "Regulatory & Legal: Handled CNIL declarations (GDPR compliance) and cooperated with Law Enforcement (Gendarmerie) investigations.",
-            "Strategic Communication: Managed high-stakes crisis comms with the CEO, the affected client, and the press. As well as ensured business continuity and successfully negotiated the renewal of the client contract mid-crisis.",
-            "Operational Excellence: Maintained detailed logs (main-courantes) for status tracking and prioritized tasks in a high-pressure, multi-cell environment."
+            "**Rotational Leadership**: Operated within a 3-unit structure (Management, Dev, and Ops/Maintenance), rotating roles daily to ensure cross-functional expertise and seamless handovers.",
+            "**Agile Product Delivery**: Simultaneously managed new product development, deployment, and legacy updates while maintaining strict V&V (Validation & Verification) and quality standards.",
+            "**Cyber Incident Response**: Acted as first responders to a major cyberattack and data breach involving social media leaks.",
+            "**Technical**: Identified breach sources and constructed the attack timeline with the attacker's motive & proof and implemented a comprehensive remediation plan.",
+            "**Regulatory & Legal**: Handled CNIL declarations (GDPR compliance) and cooperated with Law Enforcement (Gendarmerie) investigations.",
+            "**Strategic Communication**: Managed high-stakes crisis comms with the CEO, the affected client, and the press. As well as ensured business continuity and successfully negotiated the renewal of the client contract mid-crisis.",
+            "**Operational Excellence**: Maintained detailed logs (main-courantes) for status tracking and prioritized tasks in a high-pressure, multi-cell environment."
         ]
     },
     {
@@ -131,21 +131,20 @@ export const projects: Project[] = [
     {
         title: "Sera - Automated Vulnerability Scanner",
         date: "11/2025",
-        description: "Sera is an automated vulnerability scanning tool for web applications and APIs.",
+        description: "Automated tool for web and API security testing, integrating OWASP ZAP for SQLi and XSS detection.",
         details: [
-            "It performs comprehensive security testing to identify common vulnerabilities including HTTP/HTTPS misconfigurations, SQL injection, XSS (Cross-Site Scripting)",
-            "and integrates with OWASP ZAP for active and passive scanning"
+            "Automated HTTP/HTTPS misconfiguration checks",
+            "Integrated active and passive scanning modules"
             ]
     },
     {
         title: "defHack: Military Defensive CTF",
         date: "10/2025",
-        description: "A simulation of a military defensive CTF, an incident response scenario simulated by COMCYBER (French Military Cybersecurity Experts)",
+        description: "Military-grade incident response scenario simulated by COMCYBER (French Military Cybersecurity Experts).",
         details: [
-            "Two different military bases were simulated, with two teams in collaboration",
-            "Military protocols were implemented to add a realistic environment with command chains",
-            "Each base had access to a different infrastructure",
-            "The Cyber Incident Response Team was mixte, and had to handle multiple tasks simultaneously"
+            "Collaborated across simulated military bases under realistic command chains.",
+            "Implemented military protocols to manage multi-base infrastructure security.",
+            "Managed mixed Incident Response Teams to handle simultaneous defensive tasks."
         ]
     },
     {
@@ -218,7 +217,7 @@ export const skillCategories: SkillCategory[] = [
             "Governance, Risk & Compliance (GRC)",
             "Business Strategy",
             "System Qualifications (ISO, HDS...)",
-            "E-BIOS Risk Management",
+            "E-BIOS Risk Manager",
             "CyberEdu: Modules 1, 2, 3 & 4"
         ]
     },
@@ -249,26 +248,18 @@ export const skillCategories: SkillCategory[] = [
             "NoSQL (MongoDB)",
             "Web: React.js, Node.js, SCSS"
         ]
-    },
-  {
-    category: "Web Development",
-    skills: [
-      "HTML/CSS/SCSS",
-      "JavaScript",
-      "Node.js",
-      "React.js"
-    ]
-  }
+    }
 ];
 
 export const languages = [
-  { name: "French", level: "Le Robert" },
   { name: "Arabic", level: "Native Language" },
-  { name: "English", level: "TOEIC, ALC Certificate" }
+  { name: "French", level: "Bilingual (Le Robert Certified)" },
+  { name: "English", level: "Professional (TOEIC / ALC Certified)" }
 ];
 
 export const interests = [
   { name: "Root-Me", detail: "Profile: Youbey" },
   { name: "Football", detail: "Position: Midfielder" },
-  { name: "Muay Thaï", detail: "Self-Taught" }
+  { name: "Muay Thai", detail: "Self-taught" },
+  { name: "Chess", detail: "Strategy & Tactics" }
 ];
