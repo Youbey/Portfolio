@@ -17,10 +17,10 @@ export const experiences: Experience[] = [
     location: "Paris, France",
     period: "03/2026 – 09/2026",
     description: [
-        "End-to-End Product Development: Designed and developed a Decision Support System (DSS) application, managing the full software development life cycle (SDLC).",
-        "System Architecture & Strategy: Conducted requirements analysis and defined the technical architecture to ensure scalability and performance.",
-        "Full-Cycle Execution: Led the development, rigorous testing (V&V), and final deployment of the application",
-        "Security & Risk Management: Performed comprehensive risk assessments and implemented robust security protocols to protect sensitive data.",
+        "End-to-End Product Development: Designed and developed a Decision Support System (DSS) application, managing the full software development life cycle (SDLC).\n" +
+        "System Architecture & Strategy: Conducted requirements analysis and defined the technical architecture to ensure scalability and performance.\n" +
+        "Full-Cycle Execution: Led the development, rigorous testing (V&V), and final deployment of the application\n" +
+        "Security & Risk Management: Performed comprehensive risk assessments and implemented robust security protocols to protect sensitive data.\n" +
         "Web Management: Provided full-scale administration and maintenance for the corporate website, ensuring 100% uptime and functional updates & Security."
     ]
   },
