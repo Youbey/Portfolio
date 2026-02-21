@@ -17,10 +17,10 @@ export const experiences: Experience[] = [
     location: "Paris, France",
     period: "03/2026 – 09/2026",
     description: [
-        "End-to-End Product Development: Designed and developed a Decision Support System (DSS) application, managing the full software development life cycle (SDLC).\n" +
-        "System Architecture & Strategy: Conducted requirements analysis and defined the technical architecture to ensure scalability and performance.\n" +
-        "Full-Cycle Execution: Led the development, rigorous testing (V&V), and final deployment of the application\n" +
-        "Security & Risk Management: Performed comprehensive risk assessments and implemented robust security protocols to protect sensitive data.\n" +
+        "End-to-End Product Development: Designed and developed a Decision Support System (DSS) application, managing the full software development life cycle (SDLC).",
+        "System Architecture & Strategy: Conducted requirements analysis and defined the technical architecture to ensure scalability and performance.",
+        "Full-Cycle Execution: Led the development, rigorous testing (V&V), and final deployment of the application",
+        "Security & Risk Management: Performed comprehensive risk assessments and implemented robust security protocols to protect sensitive data.",
         "Web Management: Provided full-scale administration and maintenance for the corporate website, ensuring 100% uptime and functional updates & Security."
     ]
   },
@@ -106,23 +106,15 @@ export const projects: Project[] = [
         date: "02/2026",
         description: "A simulation of a crisis management scenario involving a large hospital chain, due to a quality accident.",
         details: [
-            "Rotational Leadership: Operated within a 3-unit structure (Management, Dev, and Ops/Maintenance), rotating roles daily to ensure cross-functional expertise and seamless handovers.\n" +
-            "\n" +
-            "Agile Product Delivery: Simultaneously managed new product development, deployment, and legacy updates while maintaining strict V&V (Validation & Verification) and quality standards.\n" +
-            "\n" +
-            "Cyber Incident Response: Acted as first responders to a major cyberattack and data breach involving social media leaks.\n" +
-            "\n" +
-            "    Technical: Identified breach sources and contrsucted the attack timeline with the attacker's motives and implemented a comprehensive remediation plan.\n" +
-            "\n" +
-            "    Regulatory & Legal: Handled CNIL declarations (GDPR compliance) and cooperated with Law Enforcement (Gendarmerie) investigations.\n" +
-            "\n" +
-            "Strategic Communication:\n" +
-            "\n" +
-            "    Managed high-stakes crisis comms with the CEO, the affected client, and the press.\n" +
-            "\n" +
-            "    Ensured business continuity and successfully negotiated the renewal of the client contract mid-crisis.\n" +
-            "\n" +
-            "Operational Excellence: Maintained detailed logs (main-courantes) for status tracking and prioritized tasks in a high-pressure, multi-cell environment.",
+            "Rotational Leadership: Operated within a 3-unit structure (Management, Dev, and Ops/Maintenance), rotating roles daily to ensure cross-functional expertise and seamless handovers.",
+            "Agile Product Delivery: Simultaneously managed new product development, deployment, and legacy updates while maintaining strict V&V (Validation & Verification) and quality standards.",
+            "Cyber Incident Response: Acted as first responders to a major cyberattack and data breach involving social media leaks.",
+            "    Technical: Identified breach sources and contrsucted the attack timeline with the attacker's motives and implemented a comprehensive remediation plan.",
+            "    Regulatory & Legal: Handled CNIL declarations (GDPR compliance) and cooperated with Law Enforcement (Gendarmerie) investigations.",
+            "Strategic Communication:",
+            "    Managed high-stakes crisis comms with the CEO, the affected client, and the press.",
+            "    Ensured business continuity and successfully negotiated the renewal of the client contract mid-crisis.",
+            "Operational Excellence: Maintained detailed logs (main-courantes) for status tracking and prioritized tasks in a high-pressure, multi-cell environment."
         ]
     },
     {
