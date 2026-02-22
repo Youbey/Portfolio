@@ -129,6 +129,22 @@ export const projects: Project[] = [
         ]
     },
     {
+        title: "Security System - SIEM (ELK Stack)",
+        date: "11/2025 - 01/2026",
+        description: "A security system based on SIEM (Security Information and Event Management) and ELK Stack (Elasticsearch, Logstash, Kibana)",
+        details: [
+            "Chose a well known application, NextCloud, to implement a security system based on SIEM and ELK Stack",
+            "Dockerized the application to ensure its portability and scalability",
+            "Interogated the application logs and sent them to the ELK Stack for analysis",
+            "Used Kibana pipelines to create custom dashboards and alerts",
+            "Created rules to detect suspicious activity and automate incident response",
+            "Implemented Scenario simulations to test the security system (Random mix of normal and malicious activities)",
+            "Transoformed the logs into mitre ATT&CK framework to identify potential threats for easier study & research later on",
+            "Implemented a security policy to prevent unauthorized access to sensitive data",
+            "Created a JSON dataset of the mitre for future research"
+        ]
+    },
+    {
         title: "Sera - Automated Vulnerability Scanner",
         date: "11/2025",
         description: "Automated tool for web and API security testing, integrating OWASP ZAP for SQLi and XSS detection.",
